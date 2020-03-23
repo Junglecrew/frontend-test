@@ -12,7 +12,6 @@ import { Loader }  from '../Loader'
 
 const ProductList = ({ products, isLoaded }) => {
   const productsGroups = chunk(products, 3)
-  console.log(productsGroups);
   
   return (
     <Container>
